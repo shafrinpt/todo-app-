@@ -37,3 +37,46 @@ input{
   border-radius: 8px;
   
 }
+.card{
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+
+}
+
+/* .form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;              
+  max-width: 32rem;  
+} */
+
+.fornt{
+  position: absolute;
+  bottom: 10px;
+  top: 100px;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+
+
+}
+.back{
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  bottom: 20px;
+  height: 230px;
+  width: 320px;
+  border-radius: 10px;
+
+}
+.inputs{
+  padding-top: 2rem;    
+  padding-left: 1.25rem; 
+  padding-right: 1.25rem;
+  padding-bottom: 5rem; 
+  justify-content: center;
+  align-items: center;
+}
